@@ -1,0 +1,34 @@
+<link rel="import" href="../polymer/polymer.html">
+
+<!--
+`lrndesign-sidecomments`
+A LRN element
+
+@demo demo/index.html
+-->
+
+<dom-module id="lrndesign-sidecomments">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+    </style>
+    <h2>[[title]]</h2>
+  </template>
+
+  <script>
+    Polymer({
+
+      is: 'lrndesign-sidecomments',
+
+      properties: {
+        title: {
+          type: String,
+          value: 'lrndesign-sidecomments',
+        },
+      },
+
+    });
+  </script>
+</dom-module>
